@@ -1,0 +1,4 @@
+MatchALLQuery with Builder is  co.elastic.clients.elasticsearch._types.query_dsl.MatchAllQuery$Builder@2fc735ad
+MatchALLQuery with Build is    MatchAllQuery: {}
+SupplierQuery with get is         Query: {"match_all":{}}
+

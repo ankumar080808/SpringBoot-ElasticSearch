@@ -2,6 +2,8 @@ package com.anant.Springbootelasticsearch.entity;
 
 import org.springframework.data.elasticsearch.annotations.Document;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,6 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Document(indexName = "productsss")
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Product {
    private int id;
     private String name;
